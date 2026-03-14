@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikul Suthar | Portfolio</title>
+    <!-- Font Awesome 6 (Free Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Particles.js Container -->
+    <div id="particles-js"></div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Header / Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="glitch-text" data-text="NIKUL SUTHAR">NIKUL SUTHAR</span>
+                <span class="logo-dot">.</span>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user-secret"></i> About</a></li>
+                <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="#certifications"><i class="fas fa-certificate"></i> Certs</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+                <div class="hero-badge">
+                    <i class="fas fa-shield-alt"></i> cybersecurity enthusiast
+                </div>
+                <h1 class="glitch-text" data-text="Nikul Suthar">Nikul Suthar</h1>
+                <div class="typing-container">
+                    <span class="static-text">I'm </span>
+                    <span class="dynamic-text"></span>
+                </div>
+                <p class="hero-description">
+                    <i class="fas fa-search"></i> Open Source Intelligence | Turning Public Data into Powerful Intelligence
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn primary-btn" id="download-resume">
+                        <i class="fas fa-download"></i> Download Resume
+                    </button>
+                    <a href="#contact" class="btn outline-btn">
+                        <i class="fas fa-paper-plane"></i> Get In Touch
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/Neecool" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank" class="social-icon"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual" data-aos="fade-left" data-aos-duration="1000">
+                <div class="floating-shield">
+                    <i class="fas fa-shield-halded"></i>
+                </div>
+                <div class="binary-rain" id="binary-rain"></div>
+            </div>
+        </section>
+
+       <!-- About Section -->
+<section id="about" class="about">
+    <h2 class="section-title" data-aos="fade-up">
+        <i class="fas fa-user-secret"></i> About Me
+    </h2>
+    <div class="about-grid">
+        <div class="about-content" data-aos="fade-right" data-aos-duration="1000">
+            <p>I'm Nikul Suthar, a B.Tech Cybersecurity student driven by a strong curiosity for how digital threats evolve and how to counter them using intelligence-led strategies. My focus lies in Open Source Intelligence (OSINT), ethical hacking, and real-world threat detection. Rather than just using tools, I dive deep into how cybercrimes work — from phishing scams to data leaks — and build practical solutions to tackle them.</p>
+            
+            <div class="about-stats">
+                <div class="stat-item">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Projects</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">12+</span>
+                    <span class="stat-label">Certifications</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Learning</span>
+                </div>
+            </div>
+
+            <div class="highlights">
+                <div class="highlight">
+                    <i class="fas fa-brain"></i>
+                    <span>🧠 Created awareness tools like Fake Job Offer Analyzer</span>
+                </div>
+                <div class="highlight">
+                    <i class="fas fa-eye"></i>
+                    <span>🔍 Thrive in investigation & hacker mindset projects</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Photo Card - Updated with Image -->
+        <div class="about-card" data-aos="fade-left" data-aos-duration="1000">
+            <div class="photo-card">
+                <div class="photo-card-inner">
+                    <div class="photo-card-front">
+                        <!-- Photo Front Side -->
+                        <div class="photo-frame">
+                            <img src="assets/profile.png" alt="Nikul Suthar" onerror="this.src='https://via.placeholder.com/300x400/1e2128/6c5ce7?text=Nikul+Suthar'">
+                        </div>
+                        <h3>Nikul Suthar</h3>
+                        <p>Cyber Crime Investigator</p>
+                    </div>
+                    <div class="photo-card-back">
+                        <!-- Back Side with Info -->
+                        <i class="fas fa-shield-halded"></i>
+                        <h4>Blue Hat Hacker</h4>
+                        <p>OSINT • Ethical Hacking • Threat Detection</p>
+                        <div class="back-social">
+                            <a href="https://github.com/Neecool" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:Nikulsuthar263@gmail.com"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br><br>
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2 class="section-title" data-aos="fade-up">
+                <i class="fas fa-code"></i> Skills & Tools
+            </h2>
+            
+            <div class="skills-container">
+                <div class="skills-category" data-aos="fade-up" data-aos-duration="800">
+                    <h3><i class="fas fa-shield-virus"></i> Cybersecurity & Offensive</h3>
+                    <div class="skill-items">
+                        <span class="skill-tool"><i class="fas fa-bug"></i> BURPSUIT</span>
+                        <span class="skill-tool"><i class="fas fa-skull"></i> Metasploit</span>
+                        <span class="skill-tool"><i class="fas fa-key"></i> Hydra</span>
+                        <span class="skill-tool"><i class="fas fa-dragon"></i> Medusa</span>
+                        <span class="skill-tool"><i class="fas fa-envelope"></i> SEtool</span>
+                    </div>
+                </div>
+
+                <div class="skills-category" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                    <h3><i class="fas fa-network-wired"></i> Networking & Info Gathering</h3>
+                    <div class="skill-items">
+                        <span class="skill-tool"><i class="fas fa-wifi"></i> Nmap</span>
+                        <span class="skill-tool"><i class="fas fa-mask"></i> Darkweb</span>
+                        <span class="skill-tool"><i class="fas fa-database"></i> Spiderfoot</span>
+                        <span class="skill-tool"><i class="fas fa-search"></i> Shodan</span>
+                    </div>
+                </div>
+
+                <div class="skills-category" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                    <h3><i class="fas fa-laptop-code"></i> Programming & Databases</h3>
+                    <div class="skill-items">
+                        <span class="skill-tool"><i class="fab fa-html5"></i> HTML</span>
+                        <span class="skill-tool"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-tool"><i class="fas fa-microchip"></i> Arduino</span>
+                        <span class="skill-tool"><i class="fas fa-database"></i> MySQL</span>
+                    </div>
+                </div>
+
+                <div class="skills-category" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                    <h3><i class="fas fa-pencil-ruler"></i> Design & Documentation</h3>
+                    <div class="skill-items">
+                        <span class="skill-tool"><i class="fab fa-github"></i> GitHub</span>
+                        <span class="skill-tool"><i class="fas fa-code"></i> VS Code</span>
+                        <span class="skill-tool"><i class="fab fa-figma"></i> Figma</span>
+                        <span class="skill-tool"><i class="fas fa-draw-polygon"></i> AutoCAD</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br><br>
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2 class="section-title" data-aos="fade-up">
+                <i class="fas fa-project-diagram"></i> Featured Projects
+            </h2>
+            
+            <div class="project-grid">
+                <div class="project-card" data-aos="flip-left" data-aos-duration="1000">
+                    <div class="project-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Fake Job Offer Analyzer</h3>
+                    <p>Detect scam job offers using red flag detection and logic-based filters.</p>
+                    <div class="project-tags">
+                        <span>OSINT</span>
+                        <span>Python</span>
+                        <span>ML</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Neecool/fake-job-analyzer" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Source Code
+                        </a>
+                        <a href="#" class="project-link demo-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="project-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <h3>Cyber Crime Help Tool</h3>
+                    <p>Guide victims to report cyber fraud with FIR steps, complaint builder & scenarios.</p>
+                    <div class="project-tags">
+                        <span>Web App</span>
+                        <span>JavaScript</span>
+                        <span>Legal Tech</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Neecool/cyber-crime-help" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Source Code
+                        </a>
+                        <a href="#" class="project-link demo-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-prefix">04.</span>
+                        Certifications
+                    </h2>
+                    <div class="title-line"></div>
+                </div>
+                
+                <!-- Slider Container -->
+                <div class="slider-container">
+                    <div class="slider-wrapper">
+                        <div class="slider-track" id="certTrack">
+                            <!-- Certificate 1 -->
+                            <div class="cert-card">
+                                <div class="cert-icon">📜</div>
+                                <h4>Defronix Cyber Crime Investigator</h4>
+                                <button class="cert-btn" data-cert="defronix">View</button>
+                            </div>
+                            
+                            <!-- Certificate 2 -->
+                            <div class="cert-card">
+                                <div class="cert-icon">🔒</div>
+                                <h4>CISCO – Ethical Hacker</h4>
+                                <button class="cert-btn" data-cert="cisco">View</button>
+                            </div>
+                            
+                            <!-- Certificate 3 -->
+                            <div class="cert-card">
+                                <div class="cert-icon">🛡️</div>
+                                <h4>Phishing Prevention Specialist</h4>
+                                <button class="cert-btn" data-cert="phishing">View</button>
+                            </div>
+                            
+                            <!-- Certificate 4 -->
+                            <div class="cert-card">
+                                <div class="cert-icon">🔐</div>
+                                <h4>ISEA Cyber Security Pledge</h4>
+                                <button class="cert-btn" data-cert="isea">View</button>
+                            </div>
+                            
+                            <!-- Certificate 5 -->
+                            <div class="cert-card">
+                                <div class="cert-icon">🌐</div>
+                                <h4>CISCO – Intro to Cybersecurity</h4>
+                                <button class="cert-btn" data-cert="cisco-intro">View</button>
+                            </div>
+                            
+                            <!-- Certificate 6 -->
+                            <div class="cert-card">
+                                <div class="cert-icon">📊</div>
+                                <h4>TATA – Data Visualisation</h4>
+                                <button class="cert-btn" data-cert="tata">View</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Navigation Buttons -->
+                    <button class="slider-arrow prev-arrow" id="prevCert" disabled>
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="slider-arrow next-arrow" id="nextCert">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                
+                <!-- Dots -->
+                <div class="slider-dots" id="certDots"></div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education">
+            <h2 class="section-title" data-aos="fade-up">
+                <i class="fas fa-graduation-cap"></i> Education
+            </h2>
+            
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right" data-aos-duration="800">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Secondary </h3>
+                        <p>Shree Swaminarayan International School</p>
+                        <span class="timeline-date">2018-2020</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-right" data-aos-duration="800" data-aos-delay="200">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Higher Secondary </h3>
+                        <p>Shree Swaminarayan International School</p>
+                        <span class="timeline-date">2020-2022</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>B.Tech Cybersecurity</h3>
+                        <p>INDUS UNIVERSITY, Ahmedabad</p>
+                        <span class="timeline-date">2024–2028</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section with Web3Forms -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-prefix">06.</span>
+                        Get In Touch
+                    </h2>
+                    <div class="title-line"></div>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3 class="contact-heading">Let's Connect</h3>
+                        <p class="contact-text">
+                            I'm currently looking for opportunities in cybersecurity and OSINT. Whether you have a question or just want to say hi, feel free to reach out!
+                        </p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:Nikulsuthar263@gmail.com">Nikulsuthar263@gmail.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-github"></i>
+                                <a href="https://github.com/Neecool" target="_blank">github.com/Neecool</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-linkedin"></i>
+                                <a href="#" target="_blank">LinkedIn Profile</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Ahmedabad, India</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-availability">
+                            <span class="status-dot"></span>
+                            <span>Available for collaboration</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-wrapper">
+                        <!-- WEB3FORMS FORM - Access Key Updated -->
+                        <form class="contact-form" id="contactForm">
+                            <!-- Web3Forms Access Key -->
+                            <input type="hidden" name="access_key" value="1c5a382e-4d4b-438b-893c-13d7cc18a541">
+                            
+                            <!-- Email settings -->
+                            <input type="hidden" name="subject" value="New Portfolio Message from Nikul Suthar">
+                            <input type="hidden" name="from_name" value="Portfolio Contact">
+                            
+                            <!-- Form fields -->
+                            <div class="form-group">
+                                <input type="text" name="name" required>
+                                <label>Your Name</label>
+                                <i class="fas fa-user"></i>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="email" name="email" required>
+                                <label>Email Address</label>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="text" name="subject_field" required>
+                                <label>Subject</label>
+                                <i class="fas fa-tag"></i>
+                            </div>
+                            
+                            <div class="form-group">
+                                <textarea name="message" rows="5" required></textarea>
+                                <label>Your Message</label>
+                                <i class="fas fa-pen"></i>
+                            </div>
+                            
+                            <!-- Spam protection -->
+                            <input type="checkbox" name="botcheck" style="display: none;">
+                            
+                            <button type="submit" class="btn btn-primary submit-btn" id="submitBtn">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                        
+                        <!-- Message display area -->
+                        <div id="formMessage" class="form-message"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
